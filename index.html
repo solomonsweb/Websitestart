@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are you ready?</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .icon {
+            font-size: 50px;
+            animation: fadeOut 3s forwards;
+        }
+        @keyframes fadeOut {
+            0% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="icon">🚀</div>
+    <h2>Are you ready?</h2>
+
+    <script>
+        // Redirect after animation
+        setTimeout(() => {
+            window.location.href = "https://example.com";
+        }, 3000); // 3 seconds
+    </script>
+</body>
+</html>
